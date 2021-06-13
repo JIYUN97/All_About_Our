@@ -1,7 +1,7 @@
 import "dotenv/config";
 import App from "./app";
 import * as http from "http";
-// import mbtiScoreData from "./lib/db/mbtiScoreData";
+import mbtiScoreData from "./lib/db/mbtiScoreMaker";
 
 const port = process.env.PORT || 5000;
 
@@ -10,5 +10,5 @@ const server = http.createServer(app);
 
 server.listen(port, function () {
   console.log("Server Start~♥");
-  // mbtiScoreData();
+  mbtiScoreData();
 });

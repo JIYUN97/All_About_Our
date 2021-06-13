@@ -16,4 +16,3 @@ import { userInfo } from "./config";
 module.exports = async (me: userInfo, you: userInfo): Promise<Number> => {
   return 1;
 };
-Mode;

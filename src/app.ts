@@ -16,14 +16,14 @@ class App {
   private setDB() {
     const databaseName = process.env.NODE_ENV;
     mongoose
-      .connect(`mongodb://localhost:27017/${databaseName}`, {
+      .connect(`mongodb://${process.env.SERVER}:27017/${databaseName}`, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
         ignoreUndefined: true,
         useFindAndModify: false,
-        // user: process.env.DB_USER,
-        // pass: process.env.DB_PASSWORD,
+        user: process.env.DB_USER,
+        pass: process.env.DB_PASSWORD,
       })
       .then(() => console.log("db connected"))
       .catch((err) => console.log(err));

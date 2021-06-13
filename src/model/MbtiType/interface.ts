@@ -6,6 +6,8 @@ interface MbtiType extends Document {
   mbti2: string;
   gender2: string;
   score: number;
+  reference: string;
+  notes: string;
 }
 
 export default MbtiType;

@@ -19,13 +19,8 @@
 // }
 import { userInfo } from "./config";
 
-
-module.exports = async (me: userInfo, you: userInfo) :Promise<Number>=> {
-    try {
-
-    } catch {
-        
-    }
-    return 1
-const PostModel: Model<
+module.exports = async (me: userInfo, you: userInfo): Promise<Number> => {
+  try {
+  } catch {}
+  return 1;
 };
