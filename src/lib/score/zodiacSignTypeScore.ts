@@ -1,4 +1,4 @@
-import { userInfo } from "./config";
+import { userInfo } from "../config";
 // me : {
 //     name : ‘홍길동’,
 //     gender : ‘male’,

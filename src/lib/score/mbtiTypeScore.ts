@@ -17,7 +17,7 @@
 //     me: 'infp',
 //     you: 'entj'
 // }
-import { userInfo } from "./config";
+import { userInfo } from "../config";
 
 module.exports = async (me: userInfo, you: userInfo): Promise<Number> => {
   try {
