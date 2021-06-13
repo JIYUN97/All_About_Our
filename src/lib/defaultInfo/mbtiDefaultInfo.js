@@ -5,20 +5,17 @@ const mbti = [
     "ISTP", "ISFP", "ESTP", "ESFP"
 ]
 
-const group = []
+const group = [];
+const scoreList = [];
 
-const gender = ["male", "female"]
-const check = []
-let score = '0'
+const gender = ["male", "female"];
+let score = '0';
 
 for (let i = 0; i < mbti.length; i++) {
     for (let j = 0; j < mbti.length; j++){
-        // group.push([mbti[i], mbti[j]])
         for (let k = 0; k < gender.length; k++) {
             for (let l = 0; l < gender.length; l++) {
-
                 score = '0'
-                
                 // mbti default score
                 if (mbti[i] === "INFP" && mbti[j] === "INFP" || mbti[j] === "INFP" && mbti[i] === "INFP" ) { score = '80' }
                 if (mbti[i] === "INFP" && mbti[j] === "ENFP" || mbti[j] === "INFP" && mbti[i] === "ENFP" ) { score = '80' }
@@ -172,17 +169,17 @@ for (let i = 0; i < mbti.length; i++) {
 
                 if (mbti[i] === "ESTJ" && mbti[j] === "ESTJ" || mbti[j] === "ESTJ" && mbti[i] === "ESTJ" ) { score = '80' }
 
-                if (group.includes(`${mbti[j]}#${gender[l]}#${mbti[i]}#${gender[k]}#reference#notes`)===false) {
-                    group.push((`${mbti[i]}#${gender[k]}#${mbti[j]}#${gender[l]}#reference#notes#${score}`))
+                if (group.includes(`${mbti[j]}#${gender[l]}#${mbti[i]}#${gender[k]}#reference#notes`) === false) {
+                    group.push(`${mbti[i]}#${gender[k]}#${mbti[j]}#${gender[l]}#reference#notes`)
+                    scoreList.push(score)
                 }
                 }
             }            
         }
     }
 
-console.log(group.length)
-// console.log(check.length)
-
 for (let i = 0; i < group.length; i++) {
-    console.log(group[i])
+    console.log(`${group[i]}#${scoreList[i]}`)
 }
+// console.log(group.length)
+// console.log(scoreList.length)
