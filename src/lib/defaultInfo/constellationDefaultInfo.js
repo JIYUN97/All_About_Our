@@ -1,7 +1,7 @@
 const constellation = [
-"양", "황소", "쌍둥이", "게",
-"사자", "처녀", "천칭", "전갈",
-"사수", "염소", "물병", "물고기"
+"Aries", "Taurus", "Gemini", "Cancer",
+"Leo", "Virgo", "Libra", "Scorpius",
+"Sagittarius", "Capricornus", "Aquarius", "Pisces"
 ]
 // Aries 양
 // Taurus 황소
@@ -11,7 +11,7 @@ const constellation = [
 // Virgo 처녀
 // Libra 천칭
 // Scorpius 전갈
-// Sagittarius 궁수
+// Sagittarius 사수
 // Capricornus 염소
 // Aquarius 물병
 // Pisces 물고기

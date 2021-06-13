@@ -14,7 +14,7 @@ const server = http.createServer(app);
 server.listen(port, function () {
   console.log("Server Start~♥");
   // mbtiScoreData();
-  constellationScoreData();
+  // constellationScoreData();
   // zodiacSignScoreData();
   // bloodScoreData();
 });
