@@ -6,7 +6,7 @@ import txt from "./mbtiSource";
 
 export default async function mbtiScoreData() {
   // db지우고 ㄴ돌리 // 레퍼런스 오브젝트 형태로 변환
-  await MbtiModel.remove({});
+  await MbtiModel.deleteMany({});
   txt
     .toString()
     .split("\n")
