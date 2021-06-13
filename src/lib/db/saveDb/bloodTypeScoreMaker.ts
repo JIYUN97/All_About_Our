@@ -7,7 +7,7 @@ export default async function bloodScoreData() {
     .toString()
     .split("\n")
     .forEach(async (element: String) => {
-      let [blood1, gender1, blood2, gender2, score_str, reference, notes] =
+      let [blood1, gender1, blood2, gender2, reference, notes, score_str] =
         element.split("#");
       let score = parseInt(score_str);
       await BloodModel.create({
@@ -19,6 +19,6 @@ export default async function bloodScoreData() {
         reference,
         notes,
       });
-      console.log("blood data generated!");
     });
+    console.log("blood data generated!");
 }

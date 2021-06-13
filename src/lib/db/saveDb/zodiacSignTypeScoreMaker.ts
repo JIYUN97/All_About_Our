@@ -7,7 +7,7 @@ export default async function zodiacSignScoreData() {
     .toString()
     .split("\n")
     .forEach(async (element: String) => {
-      let [zodiacSign1, gender1, zodiacSign2, gender2, score_str, reference, notes] =
+      let [zodiacSign1, gender1, zodiacSign2, gender2, reference, notes, score_str] =
         element.split("#");
       let score = parseInt(score_str);
       await ZodiacSignModel.create({
@@ -19,6 +19,6 @@ export default async function zodiacSignScoreData() {
         reference,
         notes,
       });
-      console.log("ZodiacSign data generated!");
     });
+    console.log("ZodiacSign data generated!");
 }

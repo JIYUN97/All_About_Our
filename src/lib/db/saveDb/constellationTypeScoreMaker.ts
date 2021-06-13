@@ -7,7 +7,7 @@ export default async function constellationScoreData() {
     .toString()
     .split("\n")
     .forEach(async (element: String) => {
-      let [constellation1, gender1, constellation2, gender2, score_str, reference, notes] =
+      let [constellation1, gender1, constellation2, gender2, reference, notes, score_str] =
         element.split("#");
       let score = parseInt(score_str);
       await ConstellationModel.create({
@@ -19,6 +19,6 @@ export default async function constellationScoreData() {
         reference,
         notes,
       });
-      console.log("Constellation data generated!");
     });
+    console.log("Constellation data generated!");
 }

@@ -8,7 +8,7 @@ export default async function mbtiScoreData() {
     .toString()
     .split("\n")
     .forEach(async (element: String) => {
-      let [mbti1, gender1, mbti2, gender2, score_str, reference, notes] =
+      let [mbti1, gender1, mbti2, gender2, reference, notes, score_str] =
         element.split("#");
       let score = parseInt(score_str);
       await MbtiModel.create({
@@ -20,6 +20,6 @@ export default async function mbtiScoreData() {
         reference,
         notes,
       });
-      console.log("mbti data generated!");
     });
+    console.log("mbti data generated!");
 }
