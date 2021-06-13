@@ -7,7 +7,6 @@ const mbti = [
 
 const group = [];
 const scoreList = [];
-
 const gender = ["male", "female"];
 let score = '0';
 
@@ -16,7 +15,7 @@ for (let i = 0; i < mbti.length; i++) {
         for (let k = 0; k < gender.length; k++) {
             for (let l = 0; l < gender.length; l++) {
                 score = '0'
-                // mbti default score
+                // default score
                 if (mbti[i] === "INFP" && mbti[j] === "INFP" || mbti[j] === "INFP" && mbti[i] === "INFP" ) { score = '80' }
                 if (mbti[i] === "INFP" && mbti[j] === "ENFP" || mbti[j] === "INFP" && mbti[i] === "ENFP" ) { score = '80' }
                 if (mbti[i] === "INFP" && mbti[j] === "INFJ" || mbti[j] === "INFP" && mbti[i] === "INFJ" ) { score = '80' }

@@ -2,9 +2,9 @@ import "dotenv/config";
 import App from "./app";
 import * as http from "http";
 import mbtiScoreData from "./lib/db/saveDb/mbtiTypeScoreMaker";
-// import constellationScoreData from "./lib/db/saveDb/constellationTypeScoreMaker";
-// import zodiacSignScoreData from "./lib/db/saveDb/zodiacSignTypeScoreMaker";
-// import bloodScoreData from "./lib/db/saveDb/bloodTypeScoreMaker";
+import constellationScoreData from "./lib/db/saveDb/constellationTypeScoreMaker";
+import zodiacSignScoreData from "./lib/db/saveDb/zodiacSignTypeScoreMaker";
+import bloodScoreData from "./lib/db/saveDb/bloodTypeScoreMaker";
 
 const port = process.env.PORT || 5000;
 
@@ -13,8 +13,8 @@ const server = http.createServer(app);
 
 server.listen(port, function () {
   console.log("Server Start~♥");
-  mbtiScoreData();
-  // constellationScoreData();
+  // mbtiScoreData();
+  constellationScoreData();
   // zodiacSignScoreData();
   // bloodScoreData();
 });
