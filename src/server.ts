@@ -5,10 +5,11 @@ import mbtiScoreData from "./lib/db/saveDb/mbtiTypeScoreMaker";
 import constellationScoreData from "./lib/db/saveDb/constellationTypeScoreMaker";
 import zodiacSignScoreData from "./lib/db/saveDb/zodiacSignTypeScoreMaker";
 import bloodScoreData from "./lib/db/saveDb/bloodTypeScoreMaker";
+import FateJudgmentController from "./routers/FateJudgmentController";
 
 const port = process.env.PORT || 5000;
 
-const app = new App().app;
+const app = new App(new FateJudgmentController()).app;
 const server = http.createServer(app);
 
 server.listen(port, function () {

@@ -1,15 +1,15 @@
 import express, { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
-// import Controller from "./routers/interfaces/controller";
+import Controller from "./routers/controller";
 import "dotenv/config";
 
 class App {
   app: express.Application;
-  constructor() {
+  constructor(controller: Controller) {
     this.app = express();
     this.setDB();
     this.setMiddleWare();
-    this.setRouter();
+    this.setRouter(controller);
     this.set404Error();
     this.setError();
   }
@@ -32,13 +32,11 @@ class App {
     this.app.use(express.urlencoded({ extended: false }));
     this.app.use(express.json());
   }
-  private setRouter() {
+  private setRouter(controller: Controller) {
     this.app.get("/", (req, res) => {
       res.send("hello");
     });
-    // controllers.forEach((controller) => {
-    //   this.app.use("/", controller.router);
-    // });
+    this.app.use("/", controller.router);
   }
   private set404Error() {
     this.app.use((req: Request, res: Response, _) => {
