@@ -1,7 +1,7 @@
 export type userInfo = {
-  name: String;
-  gender: String;
-  blood: String;
-  mbti: String;
-  born: Number;
+  name: string;
+  gender: string;
+  blood: string;
+  mbti: string;
+  born: number;
 };
