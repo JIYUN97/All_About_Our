@@ -8,7 +8,7 @@ import * as http from "http";
 export default async (
   me: userInfo,
   you: userInfo
-): Promise<Number | undefined> => {
+): Promise<number | undefined> => {
   try {
     const databaseName = process.env.NODE_ENV;
     mongoose.connect(`mongodb://${process.env.SERVER}:27017/${databaseName}`, {
