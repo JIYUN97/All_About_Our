@@ -30,7 +30,7 @@ export default async (
     let you_born_day = parseInt(String(you.born).slice(6, -1));
 
     // 별자리 구하는 함수
-    function getConstellation(month: Number, day: Number) {
+    function getConstellation(month: number, day: number) {
       let cons;
       if (month == 1) {
         if (day >= 20) {
@@ -110,7 +110,7 @@ export default async (
     let constellation2 = getConstellation(you_born_month, you_born_day);
 
     let result = await ConstellationModel.findOne({
-      constellation1, // 요기 빨간색 떠용
+      constellation1,
       gender1: me.gender,
       constellation2,
       gender2: you.gender,
@@ -118,9 +118,9 @@ export default async (
 
     if (!result) {
       result = await ConstellationModel.findOne({
-        constellation1,
+        constellation1: constellation2,
         gender1: you.gender,
-        constellation2,
+        constellation2: constellation1,
         gender2: me.gender,
       });
     }

@@ -37,8 +37,9 @@ export default class FateJudgmentController implements Controller {
           bloodScore,
           mbtiScore,
         ];
-        let sum = result.reduce((a, b) => a + b);
-        let score = sum / 4;
+
+        let score =
+          (constellationScore + zodiacSignScore + bloodScore + mbtiScore) / 4;
 
         return res.send({ result: score });
       }

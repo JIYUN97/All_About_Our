@@ -53,12 +53,13 @@ export default async (
 
     if (!result) {
       result = await ZodiacSignModel.findOne({
-        zodiacSign1,
+        zodiacSign1: zodiacSign2,
         gender1: you.gender,
-        zodiacSign2,
+        zodiacSign2: zodiacSign1,
         gender2: me.gender,
       });
     }
+    console.log(result);
     // if (!result) throw new Error("해당하는 결과값이 존재하지 않습니다.");
     return result!.score;
   } catch (err) {
