@@ -31,20 +31,8 @@ export default class FateJudgmentController implements Controller {
           mbtiTypeScore(me, you),
         ]);
       if (constellationScore && zodiacSignScore && bloodScore && mbtiScore) {
-        const result = [
-          constellationScore,
-          zodiacSignScore,
-          bloodScore,
-          mbtiScore,
-        ];
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> b61a58eff5680890adce1e519830693748d01199
         let score =
           (constellationScore + zodiacSignScore + bloodScore + mbtiScore) / 4;
-
         return res.send({ result: score });
       }
     } catch (err) {

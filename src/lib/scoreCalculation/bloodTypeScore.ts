@@ -2,8 +2,6 @@ import { userInfo } from "../config";
 import { BloodModel, BloodType } from "../../model/BloodType/index";
 import mongoose from "mongoose";
 import "dotenv/config";
-import App from "../../app";
-import * as http from "http";
 
 export default async (
   me: userInfo,

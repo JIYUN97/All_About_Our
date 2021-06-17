@@ -5,8 +5,6 @@ import {
 } from "../../model/ConstellationType/index";
 import mongoose from "mongoose";
 import "dotenv/config";
-import App from "../../app";
-import * as http from "http";
 
 export default async (
   me: userInfo,
@@ -24,10 +22,10 @@ export default async (
       pass: process.env.DB_PASSWORD,
     });
     // 19930830
-    let me_born_month = parseInt(String(me.born).slice(4, 7));
-    let me_born_day = parseInt(String(me.born).slice(6, -1));
-    let you_born_month = parseInt(String(you.born).slice(4, 7));
-    let you_born_day = parseInt(String(you.born).slice(6, -1));
+    let me_born_month = parseInt(String(me.born).slice(4, 6));
+    let me_born_day = parseInt(String(me.born).slice(6, 8));
+    let you_born_month = parseInt(String(you.born).slice(4, 6));
+    let you_born_day = parseInt(String(you.born).slice(6, 8));
 
     // 별자리 구하는 함수
     function getConstellation(month: number, day: number) {

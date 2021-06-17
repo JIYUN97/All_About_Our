@@ -59,7 +59,6 @@ export default async (
         gender2: me.gender,
       });
     }
-    console.log(result);
     // if (!result) throw new Error("해당하는 결과값이 존재하지 않습니다.");
     return result!.score;
   } catch (err) {

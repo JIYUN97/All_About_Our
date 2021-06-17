@@ -2,8 +2,6 @@ import { userInfo } from "../config";
 import { MbtiModel, MbtiType } from "../../model/MbtiType/index";
 import mongoose from "mongoose";
 import "dotenv/config";
-import App from "../../app";
-import * as http from "http";
 
 export default async (
   me: userInfo,
