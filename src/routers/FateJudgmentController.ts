@@ -42,7 +42,11 @@ export default class FateJudgmentController implements Controller {
           zodiacSign: zodiacSign.notes,
           mbti: mbti.notes,
         };
-        return res.send({ result: { score: score, content } });
+        let name = {
+          meName: me.name,
+          youName: you.name,
+        };
+        return res.send({ result: { name, score: score, content } });
       }
     } catch (err) {
       console.log(err);
