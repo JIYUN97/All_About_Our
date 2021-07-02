@@ -17,5 +17,5 @@ server.listen(port, function () {
   // mbtiScoreData();
   // constellationScoreData();
   // zodiacSignScoreData(); 왜이랭
-  bloodScoreData();
+  // bloodScoreData();
 });
