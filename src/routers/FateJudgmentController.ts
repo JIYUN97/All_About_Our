@@ -23,17 +23,26 @@ export default class FateJudgmentController implements Controller {
   private judgeFate: RequestHandler = async (req, res, next) => {
     const { me, you } = req.body;
     try {
-      const [constellationScore, zodiacSignScore, bloodScore, mbtiScore] =
-        await Promise.all([
-          ConstellationTypeScore(me, you),
-          zodiacSignTypeScore(me, you),
-          bloodTypeScore(me, you),
-          mbtiTypeScore(me, you),
-        ]);
-      if (constellationScore && zodiacSignScore && bloodScore && mbtiScore) {
+      const [constellation, zodiacSign, blood, mbti] = await Promise.all([
+        ConstellationTypeScore(me, you),
+        zodiacSignTypeScore(me, you),
+        bloodTypeScore(me, you),
+        mbtiTypeScore(me, you),
+      ]);
+      if (constellation && zodiacSign && blood && mbti) {
         let score =
-          (constellationScore + zodiacSignScore + bloodScore + mbtiScore) / 4;
-        return res.send({ result: score });
+          (constellation.score +
+            zodiacSign.score +
+            blood.score +
+            mbti.score * 2) /
+          5;
+        let content = {
+          constellation: constellation.notes,
+          blood: blood.notes,
+          zodiacSign: zodiacSign.notes,
+          mbti: mbti.notes,
+        };
+        return res.send({ result: score, content });
       }
     } catch (err) {
       console.log(err);

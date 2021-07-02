@@ -11,7 +11,7 @@ import * as http from "http";
 export default async (
   me: userInfo,
   you: userInfo
-): Promise<number | undefined> => {
+): Promise<ZodiacSignType | undefined> => {
   try {
     const databaseName = process.env.NODE_ENV;
     mongoose.connect(`mongodb://${process.env.SERVER}:27017/${databaseName}`, {
@@ -60,7 +60,7 @@ export default async (
       });
     }
     // if (!result) throw new Error("해당하는 결과값이 존재하지 않습니다.");
-    return result!.score;
+    return result!;
   } catch (err) {
     console.log(err);
   }

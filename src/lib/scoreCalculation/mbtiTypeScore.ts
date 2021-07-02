@@ -6,7 +6,7 @@ import "dotenv/config";
 export default async (
   me: userInfo,
   you: userInfo
-): Promise<number | undefined> => {
+): Promise<MbtiType | undefined> => {
   try {
     const databaseName = process.env.NODE_ENV;
     mongoose.connect(`mongodb://${process.env.SERVER}:27017/${databaseName}`, {
@@ -34,7 +34,7 @@ export default async (
         gender2: me.gender,
       });
     }
-    return result!.score;
+    return result!;
   } catch (err) {
     console.log(err);
   }
