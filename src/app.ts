@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
 import Controller from "./routers/controller";
 import "dotenv/config";
+import cors from "cors";
 
 class App {
   app: express.Application;
@@ -31,6 +32,7 @@ class App {
   private setMiddleWare() {
     this.app.use(express.urlencoded({ extended: false }));
     this.app.use(express.json());
+    this.app.use(cors({ origin: "*", credential: true }));
   }
   private setRouter(controller: Controller) {
     this.app.get("/", (req, res) => {
