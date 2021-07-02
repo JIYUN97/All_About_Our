@@ -1,38 +1,38 @@
-const txt = `A#male#A#male#reference#notes#70
-A#male#A#female#reference#notes#70
-A#female#A#female#reference#notes#70
-A#male#B#male#reference#notes#70
-A#male#B#female#reference#notes#25
-A#female#B#male#reference#notes#65
-A#female#B#female#reference#notes#35
-A#male#O#male#reference#notes#90
-A#male#O#female#reference#notes#90
-A#female#O#male#reference#notes#100
-A#female#O#female#reference#notes#90
-A#male#AB#male#reference#notes#50
-A#male#AB#female#reference#notes#50
-A#female#AB#male#reference#notes#65
-A#female#AB#female#reference#notes#50
-B#male#B#male#reference#notes#25
-B#male#B#female#reference#notes#65
-B#female#B#female#reference#notes#25
-B#male#O#male#reference#notes#80
-B#male#O#female#reference#notes#70
-B#female#O#male#reference#notes#75
-B#female#O#female#reference#notes#75
-B#male#AB#male#reference#notes#80
-B#male#AB#female#reference#notes#85
-B#female#AB#male#reference#notes#80
-B#female#AB#female#reference#notes#80
-O#male#O#male#reference#notes#40
-O#male#O#female#reference#notes#40
-O#female#O#female#reference#notes#40
-O#male#AB#male#reference#notes#35
-O#male#AB#female#reference#notes#35
-O#female#AB#male#reference#notes#30
-O#female#AB#female#reference#notes#35
-AB#male#AB#male#reference#notes#90
-AB#male#AB#female#reference#notes#90
-AB#female#AB#female#reference#notes#90`;
+const txt = `A#male#A#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450#서로 성격과 취향이 비슷해서 서로 속마음까지 털어내는 등 여러 면에서 공감할 수 있는 장점이 있습니다. 하지만 내성적이고 말수가 적어 불화가 생겼을 땐 그 매듭을 풀기가 어려울 수 있습니다. 불화가 생긴다면 서로 상대방이 화해를 청해 오길 기다리는 것 보단 먼저 화해를 청하는 마음이 둘의 관계를 더욱 돈독하게 해줄것 입니다.#70
+A#male#A#female#https://happyend4890.tistory.com/124#서로 조심하는 스타일이다보니 양쪽 둘다 스파크가 튈만큼 불같은 연애는 아니지만 서로가 서로의 성격을 알다보니 원만하게 만남을 잘 이어갈 수 있습니다. 처음에는 남자가 리드를 시작하지만 시간이 지날수록 여성이 리드하는 쪽으로 바뀌어 안정적인 애정관계를 이어나갈 수 있으며, 서로간에 못된 성격 또한 이해하고 서로의 존경심을 키우게 되는 경우가 많습니다.#70
+A#female#A#female#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450#서로 성격과 취향이 비슷해서 서로 속마음까지 털어내는 등 여러 면에서 공감할 수 있는 장점이 있습니다. 하지만 내성적이고 말수가 적어 불화가 생겼을 땐 그 매듭을 풀기가 어려울 수 있습니다. 불화가 생긴다면 서로 상대방이 화해를 청해 오길 기다리는 것 보단 먼저 화해를 청하는 마음이 둘의 관계를 더욱 돈독하게 해줄것 입니다.#70
+A#male#B#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#서로 사이가 원만할 때는 you님은 무슨 일을 할때 me님에게 의지하는 경향이 있습니다. 하지만 you님이 me님의 단점을 발견하게 되면 you님은 me님을 피하기도 한답니다. me님은 you님의 싹싹하고 넉살 좋은 면에 친근감을 느껴 친해지지만, 약속 관념이 희미하고, 요령부리는 성향을 아주 싫어한다고 합니다. 반면에 you님은 me님의 섬세한 마음을 좋아하지만 완벽 주의적 성격엔 차츰 싫증을 느낄 수 있습니다. 둘 사이의 우정은 너그러운 이해심에 달렸습니다.#70
+A#male#B#female#https://happyend4890.tistory.com/124#일반적으로 감수성이 풍부한 B형 여성은 남성 앞에서 자신의 매력을 뽐내고 순종하는 면을 가지고 있어 남자의 마음을 사로 잡는다고 합니다. you님에게 me님이 먼저 접근하면 교제가 이루어질 가능성이 높을 수 있지만 원만한 교제를 위해 me님은 you님에게 충분한 이해심을 갖지 않으면 you님이 쉽게 권태기를 느끼거나 질려할 수 있습니다.#25
+A#female#B#male#https://happyend4890.tistory.com/125?category=878791#me님은 you님에게 마음을 열기 전까지 다소 신중할 수 있습니다.그러나 me님이 you님을 신뢰한다면 둘은 잠시도 떨어지기 싫을 정도로 돈독한 사이가 될 수 있습니다. you님은 me님의 진지함에 또 한번 놀라게될 수 있으며 둘은 성격의 차이가 있을 수 있습니다. 원만한 교제를 위해 변명이나 핑계가 아닌 잘못이 있다면 인정하는 솔직한 감정이 필요할 것으로 보입니다.#65
+A#female#B#female#https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi#me님과 you님은 서로 공통점이 없어 깊게 친해지기 힘들 수도 있습니다. 공통점을 애써 찾으려다 실망하기보다 서로의 다른 점을 인정하고 즐기는 것이 현명한 방법일 수 있습니다. 섬세하며 완벽주의적인 성격을 가진 me님과 싹싹하고 친근한 성격을 가진 you님은 서로 자존심을 세우지 않는다면 지금보다 더 우정이 돈독해질것 같습니다.#35
+A#male#O#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#소탈하고 덤벙거리길 잘하는 you님은 자상하고 섬세한 me님과 좋은 친구관계가 될것으로 보입니다. 주의할 점은 me님은 you님의 기분을 고려하지않고, 자신의 생각대로 밀고나가려 하는 경향이 있다는 점과, you님의 지나친 솔직함이 me님에게 상처를 줄 수 있다는 점입니다. 이 부분만 주의한다면 아주 좋은 관계를 오래 유지할 것으로 보입니다.#90
+A#male#O#female#https://happyend4890.tistory.com/124#서로 호감을 가지고 자연스럽게 끌리는 상태로 만남을 이어가게 될 가능성이 높으며 you님이 me님에게 먼저 호감을 갖고 있을 수 있습니다. you님은 겉보기엔 활발해 보이지만 마음이 여리고 약한 구석이 많으며, me님의 합리적이고 진실된 태도를 좋아해 원만한 교제를 이어나갈 수 있을 것으로 보입니다.#90
+A#female#O#male#https://blog.naver.com/haejung322/220166330504#서로가 좋아하게되고 호감을 가지게되는데 상당한 시간이 걸리고 자신을 어필하는데 서로 시간이 걸릴 수 있습니다. 그러나 자연스럽게 길게 교제를 하다가 결국 결혼에 이르게 되는 경우가 많습니다. 특히 서로의 단점을 보안해주며 장점을 키워줄 수 있어 가장 이상적인 궁합으로 보입니다.#100
+A#female#O#female#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#소탈하고 덤벙거리길 잘하는 you님은 자상하고 섬세한 me님과 좋은 친구관계가 될것으로 보입니다. 주의할 점은 me님은 you님의 기분을 고려하지않고, 자신의 생각대로 밀고나가려 하는 경향이 있다는 점과, you님의 지나친 솔직함이 me님에게 상처를 줄 수 있다는 점입니다. 이 부분만 주의한다면 아주 좋은 관계를 오래 유지할 것으로 보입니다.#90
+A#male#AB#male#https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#you님은 me님의 예민한 마음을 따뜻한 이해로 어루만져 주고, you님의 특유의 정의감 또한 원칙주의자인 me님의 감성과 딱 맞아 떨어집니다. 또한 me님의 섬세함과 성실함은 you님에게 큰 호감으로 다가옵니다. 단, you님이 무심코 던지는 심한말이 me님에게 큰 상처가 될 수 있으니 이부분만 주의하신다면 좋은 사이가 이어질것 같습니다.#85
+A#male#AB#female#https://happyend4890.tistory.com/124#둘은 상대방에게 자신을 알리는데에 시간을 쏟아붓기 때문에 서로 만남을 갖는데에 있어 다소 시간이 필요할 수 있습니다. 서로 주도권을 쥐기 위해 경쟁을 하게 되는 경우가 많으며 you님의 세련미에 반해 me님이 끌리는 경우가 많습니다. me님과 you님은 서로의 휴식처가 되어줄 수 있는 만남을 할 수 있는것으로 보입니다.#60
+A#female#AB#male#https://happyend4890.tistory.com/127?category=878791#me님과 you님의 혈액형 궁합은 비교적 무난한 커풀에 속합니다. me님에게는 가장 좋은 남성이 이 혈액형을 가진 you님이랍니다. me님의 경우 자신의 약한 부분을 보이고 싶지 않아하고 겉으로는 소심하면서 속으로는 자존심이 강하기 때문에 you님이 이런 모습을 전부 다 이해하고 사랑해주면 앞으로 좋은 만남을 이어갈 수 있을것으로 보입니다. 또한 같은 공간에서 같이 일을 하더라도 잘맞아 가게와 사업을 하더라도 성공할 확률이 높다고 합니다.#65
+A#male#AB#male#https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#you님은 me님의 예민한 마음을 따뜻한 이해로 어루만져 주고, you님의 특유의 정의감 또한 원칙주의자인 me님의 감성과 딱 맞아 떨어집니다. 또한 me님의 섬세함과 성실함은 you님에게 큰 호감으로 다가옵니다. 단, you님이 무심코 던지는 심한말이 me님에게 큰 상처가 될 수 있으니 이부분만 주의하신다면 좋은 사이가 이어질것 같습니다.#85
+B#male#B#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi#me님과 you님은 만나면 평소에 없던 말도 많아질 정도지만 해외연수를 가거나 학교가 나뉘는 등 몸이 떨어져 있다면 우정이 빨리 식을 수도 있습니다. 또한 서로 닮은 점 때문에 감정 충돌이 잦기도 합니다. 기분 내키는 대로 또는 제멋대로 변덕부리는 일만 삼가한다면, 주관이 분명하고 적극적인 성격으로 유사시엔 서로에게 힘들 주는 멋진 친구로 남을 수 있을것입니다.#40
+B#male#B#female#https://happyend4890.tistory.com/125?category=878791#서로가 서로에게 호감을 갖는 경우가 많은데 만약 you님에게 호감이 있다면 솔직하게 다가가야합니다. me님과 you님은 인연이 시작되면 서로를 알면 알수록 마음이 잘 통하기 때문에 연인으로 금방 발전하게될 가능성이 높습니다. 하지만 me님의 우유부단한 성격으로 인하여 둘 사이에 금이가기 쉬우며 다른 여자에게 눈길을 주는 경우 눈치빠른 you님이 알아차리게 되면서 헤어짐을 선택할 수 있습니다. 서로에게 집중하고 연락도 자주하면서 둘 사이에 필요없는 오해들을 없에줘야 사랑이 오래갈 것으로 보입니다.#65
+B#male#B#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi#me님과 you님은 만나면 평소에 없던 말도 많아질 정도지만 해외연수를 가거나 학교가 나뉘는 등 몸이 떨어져 있다면 우정이 빨리 식을 수도 있습니다. 또한 서로 닮은 점 때문에 감정 충돌이 잦기도 합니다. 기분 내키는 대로 또는 제멋대로 변덕부리는 일만 삼가한다면, 주관이 분명하고 적극적인 성격으로 유사시엔 서로에게 힘들 주는 멋진 친구로 남을 수 있을것입니다.#40
+B#male#AB#male#https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi#자유로운 성격인 me님과 털털하며 솔직한 성격인 you님은 서로 세심하게 챙겨주는 것 보다는 서로 편안하게 싸우고 툴툴거리면서 정들어서 친해지는 관계입니다. 연애, 일, 패션 등 모든 분야에서 좋은 자극이 되는 사이지만 속박당하는것을 싫어하는 me님에게 you님의 독점욕이 부담으로 느껴질 수 있으니 이점을 주의하시면 좋은 우정이 지속될것으로 보입니다.#80
+B#male#O#female#https://happyend4890.tistory.com/125?category=878791#me님과 you님의 경우 처음부터 친해질 수 없다라는 생각이 들었을 수 있습니다. 자존심이 강하고 자기주장이 뚜렷한 you님에게 me님은 자신이 압도당하는 느낌이 들어 피하게 될 수 도 있습니다. 하지만 서로 대화하는 시간이 길어지고 서로에 대해 조금만 알아간다면 you님이 따뜻하고 온화한 성격을 지녔다는 것을 한눈에 알 수 있을겁니다. me님과 you님은 서로를 알아가면서 진솔해지고 더 적극적이기 때문에 깊은 사랑을 하는 경우가 많아 사랑 싸움이 어떻게 보면 애정표현이라고 할 수 있습니다. 만약 you님을 절대로 놓치고 싶지 않다면 me님의 의견을 억지로 강요하는 것보다는 유연하게 you님에게 조금씩 맞춰나가는 것이 좋습니다.#70
+B#female#O#male#https://happyend4890.tistory.com/126?category=878791#me님과 you님이 만났을 경우 you님이 me님의 자유분방하고 개방적이고 활발한 모습에 반하게 되어 만남을 시작했을 것으로 보입니다. you님이 권위를 내세우거나 명령하듯 얘기하거나 작은일에 화를 크게 낸다면 사랑 싸움이 자주 일어나게 될 것입니다. 이럴땐 me님이 you님을 추켜세워주고 이해해준다면 둘의 관계가 더욱 돈독해질 것으로 보입니다.#75
+B#male#AB#male#https://m.cafe.daum.net/01099646866/LfUT/26?svc=cafeapi#자유로운 성격인 me님과 털털하며 솔직한 성격인 you님은 서로 세심하게 챙겨주는 것 보다는 서로 편안하게 싸우고 툴툴거리면서 정들어서 친해지는 관계입니다. 연애, 일, 패션 등 모든 분야에서 좋은 자극이 되는 사이지만 속박당하는것을 싫어하는 me님에게 you님의 독점욕이 부담으로 느껴질 수 있으니 이점을 주의하시면 좋은 우정이 지속될것으로 보입니다.#80
+B#female#AB#female#https://www.mimint.co.kr/bbs/view.asp?strBoardID=psychology&bbstype=5&bidx=900#you님은 어느 때에는 이론적이고 사색적이며 신중하지만 때로는 현실적이고 태평스러우며 잘 잊어버리는 성격 탓에 me님을 당혹스럽게 만들 소지가 보입니다. 하지만 you님이 일관된 마음을 가지려 노력한다면 둘 다 유머 감각도 있어서 즐거운 관계를 이어나갈 수 있습니다. 하지만 서로 성격이 너무 다른 만큼 끈끈한 우정을 유지하기 위해 다름을 인정하면 좋을듯 합니다.#80
+B#male#AB#female#https://happyend4890.tistory.com/125?category=878791#me님이 먼저 you님의 지적이고 쿨한 인상에 매력을 느껴 다가가는 경우가 많으며, 서로 오래 사귀어도 you님의 진심이 무엇인지 도통 알기 어려울 수 있습니다. you님은 본인이 믿지 않는 사람에게는 절대로 자신을 드러내지 않으며 꽁꽁 숨기고 있기 때문입니다. you님은 me에게 친절하고 자상하다가도 가끔 냉정한 여성으로 변하여 행동하기도 합니다. 이런 면모로 인하여 me님은 you님에게 혼자 치쳐서 떠날 수 있습니다. you님을 진심으로 사랑한다면 겉으로 보이는 행동들을 판단해 매력을 느끼기 보다는 그녀의 속마음을 보려고 하는 노력이 중요합니다.#65
+B#female#AB#male#https://happyend4890.tistory.com/127?category=878791#서로 각자의 사고방식을 잘 이해해주기 때문에 서로 다투지않고, 오히려 you님이 me님을 코칭해주거나 함께 손을 잡고 이끌어 주려고 도와주어 you님은 me님에게 큰 의지가 될겁니다. 뿐만아니라 me님이 조금만 보조역할을 해주게 되면 you님은 사회생활을 편안하게 할 수 있습니다. 하지만 가끔 you님의 허세로 인하여 me님이 힘들어하거나 지겨워 할 수 있기 때문에 조심해야 하며 me님의 개인적인 사생활에 너무 간섭하지 말아야 합니다. 만약 사생활에 간섭을 하고 무조건 막으려고 한다면 me님은 자신의 생활이 제한되기 때문에 힘들어하고, you님 곁을 떠날 수 있습니다.#80
+B#female#AB#female#https://www.mimint.co.kr/bbs/view.asp?strBoardID=psychology&bbstype=5&bidx=900#you님은 어느 때에는 이론적이고 사색적이며 신중하지만 때로는 현실적이고 태평스러우며 잘 잊어버리는 성격 탓에 me님을 당혹스럽게 만들 소지가 보입니다. 하지만 you님이 일관된 마음을 가지려 노력한다면 둘 다 유머 감각도 있어서 즐거운 관계를 이어나갈 수 있습니다. 하지만 서로 성격이 너무 다른 만큼 끈끈한 우정을 유지하기 위해 다름을 인정하면 좋을듯 합니다.#80
+O#male#O#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#me님과 you님은 서로 친해진다면 멋진 콤비가 될 수 있지만, 또 완전히 대립하는 관계가 될 수 있습니다. 서로를 위해 헌신적이기도 하지만 다툼이 생긴다면 아주 격렬하게 다투지만 얼마 안가 언제 싸웠냐는 듯 다시 친해질것 입니다. 지나친 솔직함이 서로에게 독이 될 수 있으니 이점만 주의하시기 바랍니다.#40
+O#male#O#female#https://happyend4890.tistory.com/126?category=878791#me님과 you님이 만나는 경우 서로 주도권을 잡으려고 하는 마음을 자제하고 한쪽에서 한발자국 물러나 양보하는 것이 좋습니다. 이 혈액형 특성상 서열에 리더가 되고 싶은 성향이 다분하기 때문에 잦은 다툼이 일어날 수 있고, 심하게 싸우는 경우 서로 풀려고 하지 않아 말없이 헤어지는 경우가 많습니다. 이럴땐 me님은 주도권을 너무 잡으려고 하지말고 you님은 me님이 하는 행돌을 존중하고 서로 의지하려고 해야합니다. 또한 둘만의 공감대를 형성한다면 사랑이 오래갈 것으로 보입니다.#40
+O#male#O#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#me님과 you님은 서로 친해진다면 멋진 콤비가 될 수 있지만, 또 완전히 대립하는 관계가 될 수 있습니다. 서로를 위해 헌신적이기도 하지만 다툼이 생긴다면 아주 격렬하게 다투지만 얼마 안가 언제 싸웠냐는 듯 다시 친해질것 입니다. 지나친 솔직함이 서로에게 독이 될 수 있으니 이점만 주의하시기 바랍니다.#40
+O#male#AB#male#https://www.mimint.co.kr/bbs/view.asp?strBoardID=psychology&bbstype=5&bidx=900#you님은 me님의 솔직하고 명량한 면을 좋아하고, me님은 you님의 논리적인 사고와 정의감을 좋아하는것으로 보입니다. 서로의 장점에 호감을 가져 쉽게 친해지지만 서로의 단점을 하나 둘 발견하게 되면 그 호감이 실망으로 변해 우정에 금이 가는 속도도 빠르다고 합니다. 서로의 단점을 너그러운 시선으로 받아준다면 우정이 오래갈 것으로 보입니다.#35
+O#male#AB#female#https://happyend4890.tistory.com/126?category=878791#me님과 you님이 만나는 경우 불꽃 스파크가 튈정도로 활활 타오르는 열정적인 사랑을 할 확률이 높습니다. me님은 you님의 지적인 모습과 센스있는 행동에 금방 반하게 되고 you님은 me님의 든든함에 반하게 될겁니다. 하지만 me님의 경우 강압적인 성격이 있고 you님의 경우 직설적인 말투로 인하여 트러불이 생기게 되는데 원만한 관계를 위해 서로 상대방의 장점을 찾으려고 노력해야 합니다. 그렇지 않는다면 이 사랑은 불꽃처럼 확 타올랐다가 금방 시들어 버리게 될것으로 보입니다.#35
+O#female#AB#male#https://happyend4890.tistory.com/127?category=878791#서로의 감정을 잘 이해해주고 위로해주는 역할도 하지만 이와 반대의 경우 상대방에게 큰 실망을 안겨줄 수 있기 때문에 위험한 궁합이라할 수 있겠습니다. me님과 you님은 지금 당장 무슨 결론을 내려고 하지말고 천천히 시간을 갖고 서로 충분하게 알아간 후 관계를 이어가는게 오래갈 수 있는 방법입니다. 가끔은 me님의 현실적인 모습에 you님과 잦은 다툼이 생길 수 있지만 서로에 대해 충분히 알았다면 금방 대화로 풀 수 있는 일이 더 많으니 꼭 대화를 하시길 바랍니다.#30
+O#male#AB#male#https://www.mimint.co.kr/bbs/view.asp?strBoardID=psychology&bbstype=5&bidx=900#you님은 me님의 솔직하고 명량한 면을 좋아하고, me님은 you님의 논리적인 사고와 정의감을 좋아하는것으로 보입니다. 서로의 장점에 호감을 가져 쉽게 친해지지만 서로의 단점을 하나 둘 발견하게 되면 그 호감이 실망으로 변해 우정에 금이 가는 속도도 빠르다고 합니다. 서로의 단점을 너그러운 시선으로 받아준다면 우정이 오래갈 것으로 보입니다.#35
+AB#male#AB#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#me님과 you님은 아주 많은 공통점을 갖고 있으면서도 친해지는데 시간이 오래걸리는 묘한 관계같습니다. 하지만 자주 만나다 보면 서로에 대해 호감을 갖게 되고 말 수도 많아진다고 합니다. 서로 상처주는 말만 주의한다면 둘의 우정은 더욱 돈독해질 것으로 보입니다.#80
+AB#male#AB#female#https://happyend4890.tistory.com/127?category=878791#me님과 you님은 상대를 비판하는 성격을 갖고있어 자주 부딪치고 싸우게 되지만 반대로 이러한 행동을 자제하게 된다면 어느정도 관계를 지속할 수 있으며, 이러한 일들이 자주 반복되야지만 서로가 평온해지는 시기가 올것으로 보입니다. 만약 me님과 you님이 진지한 만남을 원한다면 서로 대화를 많이 나누고 자존심을 조금씩은 굽혀야 아름다운 사랑을 할 수 있을것 입니다.#75
+AB#male#AB#male#https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=funky_dr&logNo=40010029450@%EC%84%9C%EB%A1%9C#me님과 you님은 아주 많은 공통점을 갖고 있으면서도 친해지는데 시간이 오래걸리는 묘한 관계같습니다. 하지만 자주 만나다 보면 서로에 대해 호감을 갖게 되고 말 수도 많아진다고 합니다. 서로 상처주는 말만 주의한다면 둘의 우정은 더욱 돈독해질 것으로 보입니다.#80`;
 
 export default txt;

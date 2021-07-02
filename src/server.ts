@@ -16,6 +16,6 @@ server.listen(port, function () {
   console.log("Server Start~♥");
   // mbtiScoreData();
   // constellationScoreData();
-  // zodiacSignScoreData();
-  // bloodScoreData();
+  // zodiacSignScoreData(); 왜이랭
+  bloodScoreData();
 });
