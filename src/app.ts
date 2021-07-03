@@ -33,7 +33,6 @@ class App {
     this.app.use(cors());
     this.app.use(express.urlencoded({ extended: false }));
     this.app.use(express.json());
-    this.app.use(cors({ origin: "*", credential: true }));
   }
   private setRouter(controller: Controller) {
     this.app.get("/", (req, res) => {
