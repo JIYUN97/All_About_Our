@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
 import Controller from "./routers/controller";
 import "dotenv/config";
+import cors from "cors";
 
 class App {
   app: express.Application;
@@ -29,6 +30,7 @@ class App {
       .catch((err) => console.log(err));
   }
   private setMiddleWare() {
+    this.app.use(cors());
     this.app.use(express.urlencoded({ extended: false }));
     this.app.use(express.json());
   }
