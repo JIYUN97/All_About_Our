@@ -66,6 +66,13 @@ export default class FateJudgmentController implements Controller {
           meName: me.name,
           youName: you.name,
         };
+
+        let individuallyScore = {
+          mbtiScore : mbti.score,
+          constellationScore : constellation.score,
+          bloodScore : blood.score,
+          zodiacSignScore : zodiacSign.score
+        };
         
         let count : any = await CountModel.find({})
         console.log(count)
@@ -78,7 +85,7 @@ export default class FateJudgmentController implements Controller {
           await CountModel.updateOne({}, { $set: { count : newCount } })
         }
 
-        return res.send({ result: { name, score: score, content } });
+        return res.send({ result: { name, score: score, individuallyScore, content } });
       }
     } catch (err) {
       console.log(err);
