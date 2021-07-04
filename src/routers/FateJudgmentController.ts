@@ -67,6 +67,9 @@ export default class FateJudgmentController implements Controller {
         };
         
         let count : any = await CountModel.find({})
+        console.log(count)
+        console.log(count[0].count)
+        
         if (count[0].count == undefined) {
           await CountModel.create({count : 1})
         } else {
@@ -81,7 +84,7 @@ export default class FateJudgmentController implements Controller {
       next(err);
     }
   };
-  
+
   private count: RequestHandler = async (req, res, next) => {
     try { 
       let count = await CountModel.find({})
