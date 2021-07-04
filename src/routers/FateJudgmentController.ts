@@ -41,6 +41,7 @@ export default class FateJudgmentController implements Controller {
   //운명 판단 요청
   private judgeFate: RequestHandler = async (req, res, next) => {
     const { me, you } = req.body;
+    console.log(req.body);
     try {
       const [constellation, zodiacSign, blood, mbti] = await Promise.all([
         ConstellationTypeScore(me, you),
