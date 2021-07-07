@@ -6,7 +6,7 @@ import "dotenv/config";
 export default async (
   me: userInfo,
   you: userInfo
-): Promise<MbtiType | undefined> => {
+): Promise<MbtiType | undefined | any> => {
   try {
     const databaseName = process.env.NODE_ENV;
     mongoose.connect(`mongodb://${process.env.SERVER}:27017/${databaseName}`, {
@@ -19,7 +19,8 @@ export default async (
       pass: process.env.DB_PASSWORD,
     });
 
-    let result = await MbtiModel.findOne({
+    let check = 0;
+    let result : any = await MbtiModel.findOne({
       mbti1: me.mbti,
       gender1: me.gender,
       mbti2: you.mbti,
@@ -33,8 +34,9 @@ export default async (
         mbti2: me.mbti,
         gender2: me.gender,
       });
+      check = 1;
     }
-    return result!;
+    return [result, check];
   } catch (err) {
     console.log(err);
   }
